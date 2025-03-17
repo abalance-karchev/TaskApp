@@ -1,4 +1,4 @@
-package task2.models;
+package _players.models;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

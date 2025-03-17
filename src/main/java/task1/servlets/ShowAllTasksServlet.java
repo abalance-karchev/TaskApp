@@ -29,7 +29,7 @@ public class ShowAllTasksServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse response) throws ServletException, IOException {
-        List<Task> task = new ArrayList<>(repository.getTasks().values());
+        List<Task> task = new ArrayList<>(repository.getTasks());
 
 
         response.setContentType("application/json;charset=UTF-8");

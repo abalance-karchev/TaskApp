@@ -1,8 +1,8 @@
-package task2.data;
+package _players.data;
 
-import task2.worker.XMLWorker;
-import task2.models.Player;
-import task2.models.Players;
+import _players.worker.XMLWorker;
+import _players.models.Player;
+import _players.models.Players;
 
 import javax.xml.bind.JAXBException;
 import java.io.FileNotFoundException;

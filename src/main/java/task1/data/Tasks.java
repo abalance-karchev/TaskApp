@@ -3,21 +3,20 @@ package task1.data;
 import task1.models.Task;
 
 import javax.xml.bind.annotation.*;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 @XmlRootElement(name = "tasks")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Tasks {
     @XmlElementWrapper(name = "taskList")
     @XmlElement(name = "task")
-    private final Map<String, Task> tasks;
+    private final Set<Task> tasks;
 
     public Tasks() {
-        this.tasks = new HashMap<String, Task>();;
+        this.tasks = (Set<Task>) new HashMap<String, Task>();;
     }
 
-    public Map<String, Task> getTasks() {
-        return tasks;
+    public List<Task> getTasks() {
+        return new ArrayList<>(tasks);
     }
 }

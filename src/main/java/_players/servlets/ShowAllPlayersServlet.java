@@ -1,4 +1,4 @@
-package task2.servlets;
+package _players.servlets;
 
 import com.google.gson.Gson;
 import jakarta.servlet.ServletConfig;
@@ -7,12 +7,11 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import task2.data.Repository;
-import task2.models.Player;
-import task2.worker.JsonWorker;
+import _players.data.Repository;
+import _players.models.Player;
+import _players.worker.JsonWorker;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.List;
 
 @WebServlet("/players")

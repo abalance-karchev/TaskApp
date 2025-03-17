@@ -1,7 +1,6 @@
-package task2.worker;
+package _players.worker;
 
-import task1.data.Tasks;
-import task2.models.Players;
+import _players.models.Players;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

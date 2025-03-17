@@ -1,4 +1,4 @@
-package task2.models;
+package _players.models;
 
 import javax.xml.bind.annotation.*;
 import java.util.HashSet;
